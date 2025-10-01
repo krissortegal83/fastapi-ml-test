@@ -35,7 +35,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Staging - probando nueva versión y ver si funciona"}
+    return {"message": "Staging - probando versión3 y ver si funciona"}
 
 @app.post("/predict")
 def predict(data: Features):
