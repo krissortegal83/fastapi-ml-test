@@ -45,3 +45,9 @@ for i in range(cm.shape[0]):
         plt.text(j, i, cm[i, j], ha="center", va="center")
 plt.tight_layout()
 plt.show()
+
+def quick_ml():
+    return "Versión 2 - Modelo actualizado listo para pruebas"
+
+if __name__ == "__main__":
+    print(quick_ml())
