@@ -1,14 +1,13 @@
-# Experimentos con una API en Python
+# Python API Experiments
 
-Este repositorio reúne pruebas de aprendizaje con FastAPI y datos de ejemplo. No es un producto terminado ni el proyecto principal de mi perfil.
+Learning exercises with FastAPI and sample data. This is not a finished product or a featured professional project.
 
-👉 [Ver mis proyectos seleccionados](https://krissortegal83.github.io/)
+[Explore my selected projects](https://krissortegal83.github.io/)
 
-## Qué hay aquí
+## Current scope
 
-Código de pruebas para recibir datos y devolver una respuesta. La implementación actual de `app.py` termina creando otra instancia de FastAPI y su último endpoint `/predict` devuelve una suma. Por eso no debe presentarse como un modelo de machine learning desplegado ni como una API lista para producción.
+The current `app.py` creates a second FastAPI application, and its final `/predict` endpoint returns a sum. It should not be presented as a deployed machine-learning service or a production-ready API. Before reuse, it needs one application instance, reproducible dependencies and endpoint tests.
 
-## Estado
+## En español
 
-Experimento pendiente de ordenar. Antes de reutilizarlo hacen falta una sola instancia de aplicación, dependencias reproducibles y pruebas de los endpoints. Se conserva para documentar el aprendizaje.
-
+Repositorio de aprendizaje. Para conocer mi trabajo seleccionado, visita el sitio principal. Este experimento todavía necesita ordenarse antes de reutilizarse.
